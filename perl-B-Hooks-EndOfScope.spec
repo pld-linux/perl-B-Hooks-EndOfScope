@@ -9,7 +9,7 @@ Summary:	B::Hooks::EndOfScope - Execute code after a scope finished compilation
 #Summary(pl.UTF-8):	
 Name:		perl-B-Hooks-EndOfScope
 Version:	0.13
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -24,6 +24,8 @@ BuildRequires:	perl-Sub-Exporter
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_noautoreq_perl Tie::StdHash
 
 %description
 This module allows you to execute code when perl finished compiling
