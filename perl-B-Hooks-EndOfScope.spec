@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	B
 %define	pnam	Hooks-EndOfScope
 Summary:	B::Hooks::EndOfScope - Execute code after a scope finished compilation
