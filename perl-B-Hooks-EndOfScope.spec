@@ -14,12 +14,12 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/B/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	99a48be0694dfd12b40482c6a495e10f
-URL:		http://search.cpan.org/dist/B-Hooks-EndOfScope/
+URL:		https://metacpan.org/release/B-Hooks-EndOfScope
 BuildRequires:	perl-ExtUtils-CBuilder >= 0.26
 BuildRequires:	perl-ExtUtils-MakeMaker
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	rpmbuild(macros) >= 1.663
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Module-Implementation >= 0.05
 BuildRequires:	perl-Sub-Exporter-Progressive >= 0.001006
